@@ -76,3 +76,13 @@ named-array
 (get {:a 2 :b 2} :a)
                                         ; same as previous
                                         ; => 2
+
+(def some-list '(1 2 3))
+(def m-some-list (conj some-list 5))
+
+(println m-some-list)
+
+(conj (conj (conj (list 1 2 3) 4) 5) 6)
+;; => (6 5 4 1 2 3)
+(conj (list 1 2 3) 4 5 6)
+;; => (6 5 4 1 2 3)
