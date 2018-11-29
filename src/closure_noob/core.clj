@@ -23,7 +23,7 @@
   (do (println "Success!")
       "Second success")
   (do (println "Else branch")
-      "Second else brsnch"))
+      "Second else branch"))
 ;; => Success!
 ;; => "Second success"
 
